@@ -10,4 +10,21 @@
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\Coupon\CouponIndex.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Coupon\CouponIndex.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Views\Page\Coupon\CouponIndex.cshtml" />
+      <AdditionalFiles Include="Views\Page\Home\Index.cshtml" />
+      <AdditionalFiles Include="Views\Page\Home\Privacy.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Views\Page\" />
+    </ItemGroup>
+
 </Project>
