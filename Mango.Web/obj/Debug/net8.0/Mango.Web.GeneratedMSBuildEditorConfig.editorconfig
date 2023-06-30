@@ -16,22 +16,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Project\Microservices\Mango\Mango.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Project/Microservices/Mango/Mango.Web/Views/Page/Coupon/CouponIndex.cshtml]
+[D:/Project/Microservices/Mango/Mango.Web/Views/Coupon/CouponIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxDb3Vwb25cQ291cG9uSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXENvdXBvbkluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Microservices/Mango/Mango.Web/Views/Page/Home/Index.cshtml]
+[D:/Project/Microservices/Mango/Mango.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Microservices/Mango/Mango.Web/Views/Page/Home/Privacy.cshtml]
+[D:/Project/Microservices/Mango/Mango.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Microservices/Mango/Mango.Web/Views/Coupon/CouponCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXENvdXBvbkNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Microservices/Mango/Mango.Web/Views/Coupon/CouponDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXENvdXBvbkRlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Project/Microservices/Mango/Mango.Web/Views/Shared/Error.cshtml]
