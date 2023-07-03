@@ -68,6 +68,7 @@ public class AuthService: IAuthService
         }
         
         //if user was found, Generate Token
+        
         UserDto userDto = new()
         {
             Email = user.Email,
