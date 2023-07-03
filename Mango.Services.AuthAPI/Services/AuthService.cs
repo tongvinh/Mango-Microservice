@@ -10,15 +10,15 @@ public class AuthService: IAuthService
 {
     private readonly AppDbContext _db;
     private readonly UserManager<ApplicationUser> _userManager;
-    private readonly IdentityRole _roleManage;
+    private readonly RoleManager<IdentityRole> _roleManage;
 
-    public AuthService(AppDbContext db, UserManager<ApplicationUser> userManager, IdentityRole roleManage)
+    public AuthService(AppDbContext db, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManage)
     {
         _db = db;
         _userManager = userManager;
         _roleManage = roleManage;
     }
-    public async Task<UserDto> Register(RegistrationRequestDto registrationRequestDto)
+    public async Task<string> Register(RegistrationRequestDto registrationRequestDto)
     {
         ApplicationUser user = new ApplicationUser()
         {
@@ -43,19 +43,44 @@ public class AuthService: IAuthService
                     Name = userToReturn.Name,
                     PhoneNumber = userToReturn.PhoneNumber
                 };
-                return userDto;
+                return "";
+            }
+            else
+            {
+                return result.Errors.FirstOrDefault().Description;
             }
         }
         catch (Exception ex)
         {
-           
         }
 
-        return new UserDto();
+        return "Error Encountered";
     }
 
-    public Task<LoginResponseDto> Login(LoginRequestDto loginRequestDto)
+    public async Task<LoginResponseDto> Login(LoginRequestDto loginRequestDto)
     {
-        throw new NotImplementedException();
+        var user = _db.ApplicationUsers.FirstOrDefault(u => u.UserName.ToLower() == loginRequestDto.UserName.ToLower());
+        bool isValid = await _userManager.CheckPasswordAsync(user, loginRequestDto.Password);
+
+        if (user == null || !isValid)
+        {
+            return new LoginResponseDto() { User = null, Token = "" };
+        }
+        
+        //if user was found, Generate Token
+        UserDto userDto = new()
+        {
+            Email = user.Email,
+            ID = user.Id,
+            Name = user.Name,
+            PhoneNumber = user.PhoneNumber
+        };
+
+        LoginResponseDto loginResponseDto = new LoginResponseDto()
+        {
+            User = userDto,
+            Token = ""
+        };
+        return loginResponseDto;
     }
 }
