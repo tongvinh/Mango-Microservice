@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7izjxU9fD0jmByAJA+bzvlPyLJGhUiqrX4Vc5mG4BlBTTgk56L17yF0cFxbeMZnLT7R1hFwTTs3wxkD330Wopw==",
+  "dgSpecHash": "7d+vbes+C20+hILZW/LtWUFcSjEk4ErEyo62PFNWJMpUaLm77lXTfCW/gZZ/j2QpsGMrcHuSX+BG42bqGoyMYA==",
   "success": true,
   "projectFilePath": "D:\\Project\\Microservices\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,9 @@
     "C:\\Users\\tongg\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0-preview.5.23302.2\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0-preview.5.23302.2.nupkg.sha512",
+    "C:\\Users\\tongg\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0-preview.5.23302.2\\microsoft.aspnetcore.cryptography.internal.8.0.0-preview.5.23302.2.nupkg.sha512",
+    "C:\\Users\\tongg\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0-preview.5.23302.2\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0-preview.5.23302.2.nupkg.sha512",
+    "C:\\Users\\tongg\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\8.0.0-preview.5.23302.2\\microsoft.aspnetcore.identity.entityframeworkcore.8.0.0-preview.5.23302.2.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0-preview.5.23302.2\\microsoft.aspnetcore.openapi.8.0.0-preview.5.23302.2.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -29,6 +32,8 @@
     "C:\\Users\\tongg\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.5.23280.8\\microsoft.extensions.dependencyinjection.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0-preview.5.23280.8\\microsoft.extensions.dependencymodel.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\tongg\\.nuget\\packages\\microsoft.extensions.identity.core\\8.0.0-preview.5.23302.2\\microsoft.extensions.identity.core.8.0.0-preview.5.23302.2.nupkg.sha512",
+    "C:\\Users\\tongg\\.nuget\\packages\\microsoft.extensions.identity.stores\\8.0.0-preview.5.23302.2\\microsoft.extensions.identity.stores.8.0.0-preview.5.23302.2.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-preview.5.23280.8\\microsoft.extensions.logging.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.logging.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.5.23280.8\\microsoft.extensions.options.8.0.0-preview.5.23280.8.nupkg.sha512",
