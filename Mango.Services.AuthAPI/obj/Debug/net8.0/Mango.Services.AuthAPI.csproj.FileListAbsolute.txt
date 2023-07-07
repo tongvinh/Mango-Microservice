@@ -257,3 +257,4 @@ D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\ru\Micros
 D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\AspNet.Security.OAuth.Validation.dll
