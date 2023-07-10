@@ -34,7 +34,8 @@ public class HomeController : Controller
         return View(list);
     }
 
-    public async Task<IActionResult> Detail(int productId)
+    [Authorize]
+    public async Task<IActionResult> ProductDetails (int productId)
     {
         ProductDto? model = new();
 
