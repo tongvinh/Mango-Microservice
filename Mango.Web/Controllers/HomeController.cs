@@ -34,6 +34,24 @@ public class HomeController : Controller
         return View(list);
     }
 
+    public async Task<IActionResult> Detail(int productId)
+    {
+        ProductDto? model = new();
+
+        ResponseDto? response = await _productService.GetProductByIdAsync(productId);
+
+        if (response != null && response.IsSuccess)
+        {
+            model = JsonConvert.DeserializeObject<ProductDto>(Convert.ToString(response.Result));
+        }
+        else
+        {
+            TempData["error"] = response?.Message;
+        }
+
+        return View(model);
+    }
+
     [Authorize(Roles = SD.RoleAdmin)]
     public IActionResult Privacy()
     {
