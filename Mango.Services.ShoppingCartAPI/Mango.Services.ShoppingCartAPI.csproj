@@ -29,4 +29,8 @@
       <Folder Include="Controllers\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Mango.Web\Mango.Web.csproj" />
+    </ItemGroup>
+
 </Project>
