@@ -1,4 +1,5 @@
-using Mango.Web.Models;
+
+using Mango.Services.ShoppingCartAPI.Models.Dto;
 
 namespace Mango.Services.ShoppingCartAPI.Service.IService;
 
