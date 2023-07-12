@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FanTrDHH9A8gp+BviQe1L1jhdKgGeMWw+embvHO5fL8crq3utnTXVP6CJdk1R6ly6AGxE6L1AS2DYwBHmVxFkw==",
+  "dgSpecHash": "d78v0stgl2dsPICukxtjF8bNEVxBMo1AtpLKq4akjdvZ4WGBTJCfJ9ijcOvkoXk6386xex2xf9nbWHZW3XApNA==",
   "success": true,
   "projectFilePath": "D:\\Project\\Microservices\\Mango\\Mango.Web\\Mango.Web.csproj",
   "expectedPackageFiles": [
@@ -55,6 +55,7 @@
     "C:\\Users\\tongg\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\tongg\\.nuget\\packages\\identitymodel\\6.1.0\\identitymodel.6.1.0.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.0.0\\microsoft.aspnetcore.authentication.2.0.0.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.0.0\\microsoft.aspnetcore.authentication.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\tongg\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.0.0\\microsoft.aspnetcore.authentication.core.2.0.0.nupkg.sha512",

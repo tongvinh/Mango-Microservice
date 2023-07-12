@@ -264,3 +264,4 @@ D:\Project\Microservices\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\M
 D:\Project\Microservices\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\AspNet.Security.OAuth.Validation.dll
 D:\Project\Microservices\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\Mango.Web.dll
 D:\Project\Microservices\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\Mango.Web.pdb
+D:\Project\Microservices\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\IdentityModel.dll

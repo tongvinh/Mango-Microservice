@@ -228,3 +228,4 @@ D:\Project\Microservices\Mango\Mango.Web\bin\Debug\net8.0\Microsoft.IdentityMode
 D:\Project\Microservices\Mango\Mango.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\Project\Microservices\Mango\Mango.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Project\Microservices\Mango\Mango.Web\bin\Debug\net8.0\AspNet.Security.OAuth.Validation.dll
+D:\Project\Microservices\Mango\Mango.Web\bin\Debug\net8.0\IdentityModel.dll
