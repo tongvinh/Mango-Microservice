@@ -151,7 +151,7 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
             try
             {
                 CartDetails cartDetails = _db.CartDetails
-                    .First(u => u.CartHeaderId == cartDetailsId);
+                    .First(u => u.CartDetailsId == cartDetailsId);
 
                 int totalCountOfCartItem =
                     _db.CartDetails.Count(u => u.CartHeaderId == cartDetails.CartHeaderId);
