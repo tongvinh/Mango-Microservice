@@ -1,6 +1,8 @@
 @model CartDto
+@if (Model.CartHeader != null && Model.CartDetails?.Count() > 0)
+{
     <form method="post">
-        <br />
+        <br/>
         <input asp-for="CartHeader.UserId" hidden/>
         <input asp-for="CartHeader.CartHeaderId" hidden/>
         <div class="">
@@ -31,8 +33,8 @@
                             </div>
                         </div>
                     </div>
-                    <hr />
-                    
+                    <hr/>
+
                     @foreach (var cartObj in Model.CartDetails)
                     {
                         <div class="row h-100">
@@ -56,7 +58,7 @@
                             </div>
                         </div>
                     }
-                        <hr />
+                    <hr/>
                     <div class="row">
                         <div class="col-6">
                             @if (string.IsNullOrEmpty(Model.CartHeader.CouponCode))
@@ -73,7 +75,7 @@
                             }
                         </div>
                         <div class="col-6 text-end">
-                            <span class="text-danger" style="font-size:21px;">  Order Total : @($"{Model.CartHeader.CartTotal:C}") <br /></span>
+                            <span class="text-danger" style="font-size:21px;"> Order Total : @($"{Model.CartHeader.CartTotal:C}") <br/></span>
                             @if (Model.CartHeader.Discount > 0)
                             {
                                 <span class="text-success"> Order Discount : @($"{Model.CartHeader.Discount:C}")</span>
@@ -92,3 +94,10 @@
             </div>
         </div>
     </form>
+}
+else
+{
+    <div>
+        <p>Please add items to cart.</p>
+    </div>
+}
