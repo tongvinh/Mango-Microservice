@@ -78,3 +78,7 @@ D:\Project\Microservices\Mango\Mango.Services.EmailAPI\obj\Debug\net8.0\refint\M
 D:\Project\Microservices\Mango\Mango.Services.EmailAPI\obj\Debug\net8.0\Mango.Services.EmailAPI.pdb
 D:\Project\Microservices\Mango\Mango.Services.EmailAPI\obj\Debug\net8.0\Mango.Services.EmailAPI.genruntimeconfig.cache
 D:\Project\Microservices\Mango\Mango.Services.EmailAPI\obj\Debug\net8.0\ref\Mango.Services.EmailAPI.dll
+D:\Project\Microservices\Mango\Mango.Services.EmailAPI\bin\Debug\net8.0\Azure.Core.Amqp.dll
+D:\Project\Microservices\Mango\Mango.Services.EmailAPI\bin\Debug\net8.0\Azure.Messaging.ServiceBus.dll
+D:\Project\Microservices\Mango\Mango.Services.EmailAPI\bin\Debug\net8.0\Microsoft.Azure.Amqp.dll
+D:\Project\Microservices\Mango\Mango.Services.EmailAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
