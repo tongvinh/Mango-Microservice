@@ -1,4 +1,5 @@
 using AutoMapper;
+using Mango.MessageBus;
 using Mango.Services.ShoppingCartAPI.Data;
 using Mango.Services.ShoppingCartAPI.Models;
 using Mango.Services.ShoppingCartAPI.Models.Dto;
@@ -16,14 +17,19 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
         private readonly AppDbContext _db;
         private readonly IProductService _productService;
         private readonly ICouponService _couponService;
+        private readonly IMessageBus _messageBus;
+        private readonly IConfiguration _configuration;
         private readonly IMapper _mapper;
         private readonly ResponseDto _response;
 
-        public CartAPIController(AppDbContext db,IProductService productService,ICouponService couponService, IMapper mapper)
+        public CartAPIController(AppDbContext db,IProductService productService,ICouponService couponService,
+           IMessageBus messageBus,IConfiguration configuration, IMapper mapper)
         {
             _db = db;
             _productService = productService;
             _couponService = couponService;
+            _messageBus = messageBus;
+            _configuration = configuration;
             _response = new ResponseDto();
             _mapper = mapper;
         }
@@ -89,7 +95,24 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
 
             return _response;
         }
-        
+
+        [HttpPost("EmailCartRequest")]
+        public async Task<object> EmailCartRequest([FromBody] CartDto cartDto)
+        {
+            try
+            {
+                await _messageBus.PublishMessage(cartDto,
+                    _configuration.GetValue<string>("TopicAndQueueNames:EmailShoppingCartQueue"));
+                _response.Result = true;
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.Message = ex.ToString();
+            }
+
+            return _response;
+        }
 
         [HttpPost("CartUpsert")]
         public async Task<ResponseDto> CartUpsert(CartDto cartDto)
