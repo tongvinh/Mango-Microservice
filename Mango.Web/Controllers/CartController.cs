@@ -31,6 +31,7 @@ namespace Mango.Web.Controllers
                 return RedirectToAction(nameof(CartIndex));
             }
 
+            // ReSharper disable once Mvc.ViewNotResolved
             return View();
         }
 
@@ -45,6 +46,7 @@ namespace Mango.Web.Controllers
                 return RedirectToAction(nameof(CartIndex));
             }
 
+            // ReSharper disable once Mvc.ViewNotResolved
             return View();
         }
 
@@ -58,6 +60,7 @@ namespace Mango.Web.Controllers
                 return RedirectToAction(nameof(CartIndex));
             }
 
+            // ReSharper disable once Mvc.ViewNotResolved
             return View();
         }
 
@@ -73,6 +76,7 @@ namespace Mango.Web.Controllers
                 return RedirectToAction(nameof(CartIndex));
             }
 
+            // ReSharper disable once Mvc.ViewNotResolved
             return View();
         }
 

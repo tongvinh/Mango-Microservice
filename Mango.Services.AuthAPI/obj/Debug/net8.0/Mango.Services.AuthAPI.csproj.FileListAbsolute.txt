@@ -258,3 +258,8 @@ D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\tr\Micros
 D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\AspNet.Security.OAuth.Validation.dll
+D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\Azure.Core.Amqp.dll
+D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\Azure.Messaging.ServiceBus.dll
+D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\Microsoft.Azure.Amqp.dll
+D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\Mango.MessageBus.dll
+D:\Project\Microservices\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\Mango.MessageBus.pdb
