@@ -256,3 +256,8 @@ D:\Project\Microservices\Mango\Mango.Services.OrderAPI\obj\Debug\net8.0\refint\M
 D:\Project\Microservices\Mango\Mango.Services.OrderAPI\obj\Debug\net8.0\Mango.Services.OrderAPI.pdb
 D:\Project\Microservices\Mango\Mango.Services.OrderAPI\obj\Debug\net8.0\Mango.Services.OrderAPI.genruntimeconfig.cache
 D:\Project\Microservices\Mango\Mango.Services.OrderAPI\obj\Debug\net8.0\ref\Mango.Services.OrderAPI.dll
+D:\Project\Microservices\Mango\Mango.Services.OrderAPI\bin\Debug\net8.0\Azure.Core.Amqp.dll
+D:\Project\Microservices\Mango\Mango.Services.OrderAPI\bin\Debug\net8.0\Azure.Messaging.ServiceBus.dll
+D:\Project\Microservices\Mango\Mango.Services.OrderAPI\bin\Debug\net8.0\Microsoft.Azure.Amqp.dll
+D:\Project\Microservices\Mango\Mango.Services.OrderAPI\bin\Debug\net8.0\Mango.MessageBus.dll
+D:\Project\Microservices\Mango\Mango.Services.OrderAPI\bin\Debug\net8.0\Mango.MessageBus.pdb
