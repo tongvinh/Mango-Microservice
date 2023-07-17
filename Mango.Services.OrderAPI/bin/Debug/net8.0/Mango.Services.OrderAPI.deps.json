@@ -18,6 +18,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.5.23280.1",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0-preview.5.23280.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.0-preview.5.23313.2",
+          "Stripe.net": "41.25.0-beta.1",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -1807,6 +1808,18 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "Stripe.net/41.25.0-beta.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "assemblyVersion": "41.25.0.0",
+            "fileVersion": "41.25.0.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -3674,6 +3687,13 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "Stripe.net/41.25.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yVbc6/522EMi/4hOUf3kYnf6oDkJK74PcotzzPidB6KASAm3cxO+uZpGgg0Is2kDmUKZCrVWhn/V1WnGZZZaRQ==",
+      "path": "stripe.net/41.25.0-beta.1",
+      "hashPath": "stripe.net.41.25.0-beta.1.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",

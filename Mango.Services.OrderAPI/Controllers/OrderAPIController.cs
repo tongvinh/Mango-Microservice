@@ -61,20 +61,11 @@ namespace Mango.Services.OrderAPI.Controllers
         {
             try
             {
-                
-
                 var options = new SessionCreateOptions
                 {
                     SuccessUrl = stripeRequestDto.ApprovedUrl,
                     CancelUrl = stripeRequestDto.CancelUrl,
-                    LineItems = new List<SessionLineItemOptions>
-                    {
-                        new SessionLineItemOptions
-                        {
-                            Price = "price_H5ggYwtDq4fbrJ",
-                            Quantity = 2,
-                        },
-                    },
+                    LineItems = new List<SessionLineItemOptions>(),
                     Mode = "payment",
                 };
 
@@ -84,7 +75,7 @@ namespace Mango.Services.OrderAPI.Controllers
                     {
                         PriceData = new SessionLineItemPriceDataOptions()
                         {
-                            UnitAmount = (long)(item.Price * 100),  // $20.99 -> 2099
+                            UnitAmount = (long)(item.Product.Price * 100),  // $20.99 -> 2099
                             Currency = "usd",
                             ProductData = new SessionLineItemPriceDataProductDataOptions()
                             {

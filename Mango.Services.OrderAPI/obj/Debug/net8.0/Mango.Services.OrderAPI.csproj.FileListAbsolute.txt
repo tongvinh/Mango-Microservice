@@ -261,3 +261,4 @@ D:\Project\Microservices\Mango\Mango.Services.OrderAPI\bin\Debug\net8.0\Azure.Me
 D:\Project\Microservices\Mango\Mango.Services.OrderAPI\bin\Debug\net8.0\Microsoft.Azure.Amqp.dll
 D:\Project\Microservices\Mango\Mango.Services.OrderAPI\bin\Debug\net8.0\Mango.MessageBus.dll
 D:\Project\Microservices\Mango\Mango.Services.OrderAPI\bin\Debug\net8.0\Mango.MessageBus.pdb
+D:\Project\Microservices\Mango\Mango.Services.OrderAPI\bin\Debug\net8.0\Stripe.net.dll
