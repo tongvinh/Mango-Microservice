@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\images\\mango.png",
+      "PackagePath": "staticwebassets\\images\\mango.png"
+    },
+    {
+      "Id": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\images\\order.PNG",
+      "PackagePath": "staticwebassets\\images\\order.PNG"
+    },
+    {
       "Id": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

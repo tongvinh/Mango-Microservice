@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fh+TQdaKMH9Mty7CB+PjkyEciSXtlLor+Al5frhkr54=",
+  "Hash": "C1H8Vqau7Vht8Fe/wwxaUVMEk7yw570ohnPl3NEIcsU=",
   "Source": "Mango.Services.ShoppingCartAPI",
   "BasePath": "_content/Mango.Services.ShoppingCartAPI",
   "Mode": "Default",
@@ -112,6 +112,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\images\\mango.png",
+      "SourceId": "Mango.Web",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\",
+      "BasePath": "_content/Mango.Web",
+      "RelativePath": "images/mango.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mango.png"
+    },
+    {
+      "Identity": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\images\\order.PNG",
+      "SourceId": "Mango.Web",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\",
+      "BasePath": "_content/Mango.Web",
+      "RelativePath": "images/order.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\order.PNG"
     },
     {
       "Identity": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\js\\site.js",

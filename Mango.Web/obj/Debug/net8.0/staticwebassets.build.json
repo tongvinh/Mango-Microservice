@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "baWDIGRUE4gxDMHrPnIGJ0BkG4xeQYKNNDcgCwzgJMw=",
+  "Hash": "pVM4kvQQD/GbFpDX+ZSOIpWuR+vr38fhZjJeS8XqGAM=",
   "Source": "Mango.Web",
   "BasePath": "_content/Mango.Web",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\images\\mango.png",
+      "SourceId": "Mango.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\",
+      "BasePath": "_content/Mango.Web",
+      "RelativePath": "images/mango.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mango.png"
+    },
+    {
+      "Identity": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\images\\order.PNG",
+      "SourceId": "Mango.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\",
+      "BasePath": "_content/Mango.Web",
+      "RelativePath": "images/order.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\order.PNG"
     },
     {
       "Identity": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\js\\site.js",
