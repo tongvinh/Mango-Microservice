@@ -78,3 +78,5 @@ D:\Project\Microservices\Mango\Mango.Services.CouponAPI\bin\Debug\net8.0\runtime
 D:\Project\Microservices\Mango\Mango.Services.CouponAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Project\Microservices\Mango\Mango.Services.CouponAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Project\Microservices\Mango\Mango.Services.CouponAPI\obj\Debug\net8.0\Mango.Services.CouponAPI.sourcelink.json
+D:\Project\Microservices\Mango\Mango.Services.CouponAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Project\Microservices\Mango\Mango.Services.CouponAPI\bin\Debug\net8.0\Stripe.net.dll
