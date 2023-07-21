@@ -4,6 +4,7 @@ $(document).ready(function (){
     loadDataTable();
 });
 function loadDataTable() {
+    order: [[0,'desc']],
     dataTable = $('#tblData').DataTable({
         "ajax": {url: "/order/getall"},
         "columns": [
