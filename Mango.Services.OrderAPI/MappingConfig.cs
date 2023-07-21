@@ -12,13 +12,16 @@ public class MappingConfig
         {
             config.CreateMap<OrderHeaderDto, CartHeaderDto>()
                 .ForMember(dest => dest.CartTotal, u => u.MapFrom(src => src.OrderTotal)).ReverseMap();
+            
             config.CreateMap<CartDetailsDto, OrderDetailDto>()
-                .ForMember(dest => dest.ProductName, u => u.MapFrom(src => src.Product.Price));
+                .ForMember(dest => dest.ProductName, u => u.MapFrom(src => src.Product.Name))
+                .ForMember(dest => dest.Price, u => u.MapFrom(src => src.Product.Price));
 
             config.CreateMap<OrderDetailDto, CartDetailsDto>();
-            
+
             config.CreateMap<OrderHeader, OrderHeaderDto>().ReverseMap();
             config.CreateMap<OrderDetailDto, OrderDetails>().ReverseMap();
+
         });
         return mappingConfig;
     }
