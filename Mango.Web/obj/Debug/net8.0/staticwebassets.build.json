@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pVM4kvQQD/GbFpDX+ZSOIpWuR+vr38fhZjJeS8XqGAM=",
+  "Hash": "cG6DH+rGMCc0vh4wV3tOFGnQUATYgEiPIyX/BkrapL4=",
   "Source": "Mango.Web",
   "BasePath": "_content/Mango.Web",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\order.PNG"
+    },
+    {
+      "Identity": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\js\\order.js",
+      "SourceId": "Mango.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\",
+      "BasePath": "_content/Mango.Web",
+      "RelativePath": "js/order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
     },
     {
       "Identity": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\js\\site.js",

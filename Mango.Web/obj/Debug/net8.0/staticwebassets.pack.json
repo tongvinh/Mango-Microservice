@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\order.PNG"
     },
     {
+      "Id": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
+    },
+    {
       "Id": "D:\\Project\\Microservices\\Mango\\Mango.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
