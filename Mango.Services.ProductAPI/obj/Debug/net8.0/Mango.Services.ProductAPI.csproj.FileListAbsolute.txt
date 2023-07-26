@@ -78,3 +78,5 @@ D:\Project\Microservices\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\refint
 D:\Project\Microservices\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\Mango.Services.ProductAPI.pdb
 D:\Project\Microservices\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\Mango.Services.ProductAPI.genruntimeconfig.cache
 D:\Project\Microservices\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\ref\Mango.Services.ProductAPI.dll
+D:\Project\Microservices\Mango\Mango.Services.ProductAPI\bin\Debug\net8.0\Mango.Services.ProductAPI.staticwebassets.runtime.json
+D:\Project\Microservices\Mango\Mango.Services.ProductAPI\bin\Debug\net8.0\Mango.Services.ProductAPI.runtimeconfig.dev.json

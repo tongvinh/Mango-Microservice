@@ -23,7 +23,14 @@ public class BaseService: IBaseService
         {
             HttpClient client = _httpClientFactory.CreateClient("MangoAPI");
         HttpRequestMessage message = new();
-        message.Headers.Add("Accept","application/json");
+        if (requestDto.ContentType == ContentType.MultipartFromData)
+        {
+            message.Headers.Add("Accept","*/*");
+        }
+        else
+        {
+            message.Headers.Add("Accept","application/json");
+        }
         //token
         if (withBearer)
         {
@@ -32,10 +39,31 @@ public class BaseService: IBaseService
         }
 
         message.RequestUri = new Uri(requestDto.Url);
-        if (requestDto.Data != null)
+
+        if (requestDto.ContentType == ContentType.MultipartFromData)
         {
-            message.Content = new StringContent(JsonConvert.SerializeObject(requestDto.Data), Encoding.UTF8,
-                "application/json");
+            var content = new MultipartFormDataContent();
+            foreach (var prop in requestDto.Data.GetType().GetProperties())
+            {
+                var value = prop.GetValue(requestDto.Data);
+                if (value is FormFile)
+                {
+                    var file = (FormFile)value;
+                    if (file != null)
+                    {
+                        content.Add(new StreamContent(file.OpenReadStream()),prop.Name, file.FileName);
+                    }
+                }
+            }
+            
+        }
+        else
+        {
+            if (requestDto.Data != null)
+            {
+                message.Content = new StringContent(JsonConvert.SerializeObject(requestDto.Data), Encoding.UTF8,
+                    "application/json");
+            }
         }
 
         HttpResponseMessage? apiResponse = null;
