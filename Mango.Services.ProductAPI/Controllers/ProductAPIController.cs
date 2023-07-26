@@ -79,7 +79,7 @@ public class ProductAPIController : ControllerBase
 
                 var baseUrl =
                     $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host.Value}{HttpContext.Request.PathBase.Value}";
-                product.ImageUrl = baseUrl + "/ProductImages/" + filePath;
+                product.ImageUrl = baseUrl + "/ProductImages/" + fileName;
                 product.ImageLocalPath = filePath;
             }
             else
