@@ -43,3 +43,4 @@ D:\Project\Microservices\Mango\Mango.GatewaySolution\obj\Debug\net8.0\refint\Man
 D:\Project\Microservices\Mango\Mango.GatewaySolution\obj\Debug\net8.0\Mango.GatewaySolution.pdb
 D:\Project\Microservices\Mango\Mango.GatewaySolution\obj\Debug\net8.0\Mango.GatewaySolution.genruntimeconfig.cache
 D:\Project\Microservices\Mango\Mango.GatewaySolution\obj\Debug\net8.0\ref\Mango.GatewaySolution.dll
+D:\Project\Microservices\Mango\Mango.GatewaySolution\bin\Debug\net8.0\ocelot.json
